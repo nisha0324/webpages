@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+.parallax {
+    height: 100%;
+  }
+
+  input, label {
+    display: none;
+    float: right;
+  }
+
+  body {
+    
+    background-color: whitesmoke;
+  }
+/* <Menu Section> */
+
+.smenu {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+  }
+  
+  .smenu h2 {
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 30px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    color: white;
+  }
+  
+  nav {
+    width: 100%;
+    float: right;
+    position: absolute;
+    z-index: 1
+  }
+  
+  .submenu {
+    float: right;
+    list-style-type: none;
+    background-color: #E91E63;
+    display: table;
+  }
+  
+  .submenu li {
+    display: table-cell;
+  }
+  
+  .submenu li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10.5px 15px;
+    display: block;
+    color: white;
+    letter-spacing: 4px;
+  }
+  
+  .submenu li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s ease;
+  }
+  
+  .submenu li.active a {
+    background-color: #fff;
+    color: #000;
+  }
+
+  /* < Content writing> */
+
+  .bg {
+    border-style: solid;
+    border-right: 100%;
+    border-bottom: thick;
+    border-color: #E91E63;
+
+  }
+  
+  .divmain {
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 20px;
+
+  }
+
+
+.div1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* end section */
+
+.sblack {
+  height: 130PX;
+  background-color: black;
+
+}
+
+.sblack h4 {
+  padding-top: 35px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.sblack p {
+  padding: 10px;
+  font-size: 15px;
+  text-align:center;
+  color: white;
+}
